@@ -17,6 +17,8 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="script/script.html" />
+    <link rel="stylesheet" href="script/script.js" />
   </head>
   <body>
     <div class="wrapper d-flex align-items-stretch">
@@ -24,7 +26,35 @@
         <h1><a href="index.html" class="logo">EGAT</a></h1>
         <ul class="list-unstyled components mb-5">
           <li class="active">
-            <a href="#"><span class="fa fa-calendar"></span> ประจำวัน</a>
+            <a
+              id="button"
+              data-toggle="collapse"
+              href="#collapseExample"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              <span class="fa fa-calendar"></span> ประจำวัน</a
+            >
+            <div
+              class="collapse"
+              id="collapseExample"
+              id="wrapper"
+              class="open"
+            >
+              <ul id="list">
+                <li>เปิดประจำวัน</li>
+                <li>ควบคุมเงินสด</li>
+                <li>รับ/จ่าย ตามประเภท</li>
+                <li>ตรวจสอบเงินสด(ผจก.)</li>
+                <li>ตรวจสอบเงินสด</li>
+                <li>ตรวจสอบลิ้นชักทุก USER</li>
+                <li>ชำระพิเศษ</li>
+                <li>รายละเอียดสมาชิก</li>
+                <li>จ่ายเงินกู้สมาชิก</li>
+                <li>ถอนหุ้นบางส่วน</li>
+              </ul>
+            </div>
           </li>
           <li>
             <a href="#"><span class="fa fa-money"></span> Bill Payment</a>
@@ -101,7 +131,13 @@
                   <a class="nav-link" href="#">Password</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Apps</a>
+                  <a
+                    class="nav-link"
+                    href="#"
+                    data-toggle="modal"
+                    data-target=".bd-example-modal-lg"
+                    >Apps</a
+                  >
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Logoff</a>
@@ -125,3 +161,14 @@
     <script src="js/main.js"></script>
   </body>
 </html>
+<div
+  class="modal fade bd-example-modal-lg"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="myLargeModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">หน้า Apps</div>
+  </div>
+</div>
