@@ -3324,9 +3324,9 @@ input[type='button'].btn-block {
 }
 @media (prefers-reduced-motion: reduce) {
   .fade {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
+    -webkit-transition: opacity 0.3s all;
+    -o-transition: opacity 0.3s all;
+    transition: opacity 0.3s all;
   }
 }
 .fade:not(.show) {
@@ -10751,8 +10751,8 @@ h5,
   transition: all 0.3s;
 }
 #sidebar.active {
-  min-width: 80px;
-  max-width: 80px;
+  min-width: 0px;
+  max-width: 0px;
   text-align: center;
 }
 #sidebar.active ul.components li {
@@ -10767,7 +10767,7 @@ h5,
   font-size: 24px;
 }
 #sidebar.active .logo {
-  padding: 10px 0;
+  padding: 0px 0;
 }
 #sidebar.active .footer {
   display: none;
@@ -10783,9 +10783,9 @@ h5,
 }
 @media (prefers-reduced-motion: reduce) {
   #sidebar .logo {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
   }
 }
 #sidebar ul.components {
@@ -10796,9 +10796,9 @@ h5,
 }
 @media (prefers-reduced-motion: reduce) {
   #sidebar ul.components {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
   }
 }
 #sidebar ul li {
