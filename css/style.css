@@ -10756,7 +10756,7 @@ h5,
   text-align: center;
 }
 #sidebar.active ul.components li {
-  font-size: 14px;
+  font-size: 0px;
 }
 #sidebar.active ul.components li a {
   padding: 10px 0;
@@ -10764,10 +10764,11 @@ h5,
 #sidebar.active ul.components li a span {
   margin-right: 0;
   display: block;
-  font-size: 24px;
+  font-size: 0px;
 }
 #sidebar.active .logo {
-  padding: 0px 0;
+  padding: 10px 0;
+  font-size: 0px;
 }
 #sidebar.active .footer {
   display: none;
@@ -10805,7 +10806,7 @@ h5,
   font-size: 16px;
 }
 #sidebar ul li > ul {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 #sidebar ul li > ul li {
   font-size: 14px;
